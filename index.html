@@ -6,22 +6,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>16 Types Voresonality test</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit" />
+  <link rel="stylesheet" href="styles/style.css" />
 
 </head>
 
 <body>
   <h1 id='title'>Voresonality Test</h1>
   <h3 id='title2'>Find out your Vore Indicator!</h3>
-  <p id='textarea'> Created by TastyTales and Smuxray, with contributions from Eka's Portal users. This test is based
-    off of the Myers-Briggs Personality Indicator, and is designed to show you what kind of predator or prey you are
-    using one of 16 indicators.
-    <br />
-    <br> Please note that this test is meant to be taken for fun, and is still in its development stage.
-    <br />
-    <br /> Select which test to take.
-  </p>
+  <div id="progress-bar">
+    <div id="progress-bar-full">
+
+    </div>
+  </div>
+  <p id='textarea'></p>
 
   <div class="pick-button-container">
     <button class="pick-pred" id='pred-button'>Predator</button>
@@ -42,9 +40,42 @@
   <br />
   <p id='textarea3'></p>
   <p id="textarea4"></p>
+  <table id="scores-table">
+    <caption>Scores</caption>
+    <tr>
+      <td>Individual</td>
+      <td id="score-individual">0</td>
+      <td id="score-shared">0</td>
+      <td>Shared</td>
+    </tr>
+    <tr>
+      <td>Visceral</td>
+      <td id="score-visceral">0</td>
+      <td id="score-emotional">0</td>
+      <td>Emotional</td>
+    </tr>
+    <tr>
+      <td>Active</td>
+      <td id="score-active">0</td>
+      <td id="score-passive">0</td>
+      <td>Passive</td>
+    </tr>
+    <tr>
+      <td>SeXual</td>
+      <td id="score-sexual">0</td>
+      <td id="score-sensual">0</td>
+      <td>SeNsual</td>
+    </tr>
+  </table>
   <br />
   <br />
-  <button id="reset-button">Reset</button>
+  <button class="reset-button" id="reset-button">Reset</button>
+
+  <footer>
+    <div>
+      <i>Voresonality Test 1.0 - Original idea by Smuxray@FA and @_TastyTales. Development by @_TastyTales and @Mikhailchip. Original contributions by [names].</i>
+    </div>
+  </footer>
 
   <script src="script.js"></script>
 </body>

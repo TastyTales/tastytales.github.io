@@ -1,0 +1,191 @@
+/* Styles go here */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(221, 216, 202);
+    gap: 5px;
+}
+
+.predbody {
+    background-color: rgb(224, 172, 95);
+}
+
+.wpreybody {
+    background-color: rgb(137, 226, 144);
+}
+
+.upreybody {
+    background-color: rgb(199, 130, 226);
+}
+
+h1 {
+    font-family: "Kanit", sans-serif;
+    margin: 1.5rem 0 0 0;
+}
+
+h3 {
+    font-family: "Kanit", sans-serif;
+    font-size: 25px;
+    margin: 15 0;
+}
+
+.progress-bar {
+    width: 20rem;
+    height: 1rem;
+    border: 0.15rem solid black;
+}
+
+.progress-bar-full {
+    height: 1.00rem;
+    background-color: rgb(109, 174, 235);
+    width: 0%;
+}
+
+p {
+    font-size: 20px;
+}
+
+.pick-button-container {
+    display: flex;
+    width: 100%;
+    max-width: 500px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pick-pred {
+    width: 150px;
+    height: auto;
+    font-family: "Kanit", sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    background-color: rgb(224, 172, 95);
+    border: 3px solid rgb(218, 154, 59);
+    border-radius: 15px;
+    box-shadow: 3px 3px 12px black;
+}
+
+.pick-wprey {
+    width: 150px;
+    height: auto;
+    font-family: "Kanit", sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    background-color: rgb(137, 226, 144);
+    border: 3px solid rgb(87, 211, 97);
+    border-radius: 15px;
+    box-shadow: 3px 3px 12px black;
+}
+
+.pick-uprey {
+    width: 150px;
+    height: auto;
+    font-family: "Kanit", sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    background-color: rgb(199, 130, 226);
+    border: 3px solid rgb(184, 118, 211);
+    border-radius: 15px;
+    box-shadow: 3px 3px 12px black;
+}
+
+.testbuttons-container {
+    display: flex;
+    width: 100%;
+    max-width: 550px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.testbuttons {
+    width: -moz-fit-content;
+    width: fit-content;
+    height: auto;
+    font-family: "Kanit", sans-serif;
+    font-size: 16px;
+    background-color: rgb(218, 218, 218);
+    border-color: silver;
+    border-radius: 15px;
+    box-shadow: 3px 3px 12px black;
+}
+
+#textarea_header {
+    font-style: italic;
+}
+
+table {
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 2rem;
+    font-size: 20px;
+    font-family: "Kanit", sans-serif;
+
+}
+
+caption {
+    font-size: 25px;
+}
+
+td {
+    border: 3px solid silver;
+    border-style: ridge;
+}
+
+table tr:first-of-type {
+    background-color: #FFFBAE;
+}
+
+table tr:nth-of-type(2) {
+    background-color: #F5898E;
+}
+
+table tr:nth-of-type(3) {
+    background-color: #99D9EA;
+}
+
+table tr:last-of-type {
+    background-color: #FFAEC9;
+}
+
+tr {
+    text-align: center;
+}
+
+tr td:first-of-type {
+    width: 40%;
+    padding: 0 2rem;
+}
+
+tr td:last-of-type {
+    width: 40%;
+    padding: 0 2rem;
+}
+
+tr td:nth-of-type(2) {
+    width: 10%;
+    padding: 0 .5rem;
+}
+
+tr td:nth-of-type(3) {
+    width: 10%;
+    padding: 0 .5rem;
+}
+
+.reset-button {
+    width: 150px;
+    height: auto;
+    font-family: "Kanit", sans-serif;
+    font-size: 25px;
+    background-color: rgb(218, 218, 218);
+    border-color: silver;
+    border-radius: 15px;
+    box-shadow: 3px 3px 12px black;
+}
+
+footer {
+    margin-top: 2rem;
+}
