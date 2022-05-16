@@ -814,9 +814,9 @@ let nPerc = ((X+N)/100)*N;
 
   textarea3.innerText = isDesc + "\n" + veDesc + "\n" + apDesc + "\n" + xsDesc;
 
-  textarea4.innertext = "Scores:" + "\n" 
-  + "Individual: " + I + " || Shared: " + S + "\n" 
+  textarea4.innerText =  "Scores:" + "\n" 
+  + "Individual: " + I + " || Social: " + S + "\n" 
   + "Visceral: " + V + " || Emotional: " + E + "\n"
   + "Active: " + A + " || Passive: " + P + "\n"
-  + "SeXual: " + X + " || SeNsual: " + N + "\n";
+  + "SeXual: " + X + " || SeNual: " + N + "\n";
 }
