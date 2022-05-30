@@ -189,3 +189,20 @@ tr td:nth-of-type(3) {
 footer {
     margin-top: 2rem;
 }
+
+@media only screen and (max-width: 600px) {
+    
+    .pick-button-container {
+        flex-direction: column;
+        gap: 1.5em;
+    }
+
+    .testbuttons-container {
+        flex-direction: column;
+        gap: 1.5em;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+}
