@@ -1216,8 +1216,8 @@ upreyStatements = [
         answers: [ { type: 'N', value: 3 },
         { type: 'N', value: 1 },
         { type: null, value: null },
-        { type: 'S', value: 1 },
-        { type: 'S', value: 3 },
+        { type: 'X', value: 1 },
+        { type: 'X', value: 3 },
       ]
     },
     {question: 
@@ -1225,8 +1225,8 @@ upreyStatements = [
         answers: [ { type: 'N', value: 3 },
         { type: 'N', value: 1 },
         { type: null, value: null },
-        { type: 'S', value: 1 },
-        { type: 'S', value: 3 },
+        { type: 'X', value: 1 },
+        { type: 'X', value: 3 },
       ]
     },
     {question: 
@@ -1234,8 +1234,8 @@ upreyStatements = [
         answers: [ { type: 'N', value: 3 },
         { type: 'N', value: 1 },
         { type: null, value: null },
-        { type: 'S', value: 1 },
-        { type: 'S', value: 3 },
+        { type: 'X', value: 1 },
+        { type: 'X', value: 3 },
       ]
     },
     {question: 
@@ -1243,8 +1243,8 @@ upreyStatements = [
         answers: [ { type: 'N', value: 3 },
         { type: 'N', value: 1 },
         { type: null, value: null },
-        { type: 'S', value: 1 },
-        { type: 'S', value: 3 },
+        { type: 'X', value: 1 },
+        { type: 'X', value: 3 },
       ]
     },
     {question: 
@@ -1252,8 +1252,8 @@ upreyStatements = [
         answers: [ { type: 'N', value: 3 },
         { type: 'N', value: 1 },
         { type: null, value: null },
-        { type: 'S', value: 1 },
-        { type: 'S', value: 3 },
+        { type: 'X', value: 1 },
+        { type: 'X', value: 3 },
       ]
     },
 
