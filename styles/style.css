@@ -191,7 +191,7 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
-    
+
     .pick-button-container {
         flex-direction: column;
         gap: 1.5em;
