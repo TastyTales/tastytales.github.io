@@ -27,7 +27,8 @@ var predTest = document.getElementById('pred-button'),
   scoreA = document.getElementById('score-active'),
   scoreP = document.getElementById('score-passive'),
   scoreX = document.getElementById('score-sexual'),
-  scoreN = document.getElementById('score-sensual');
+  scoreN = document.getElementById('score-sensual'),
+  shareLink = document.getElementById('share-link');
 
 textarea.innerText =
   "Created by TastyTales and Smuxray, with contributions from Eka's Portal users. This test is based off of the Myers-Briggs Personality Indicator, and is designed to show you what kind of predator or prey you are using one of 16 indicators. It is best to answer these questions 'In Character' for the character you want to get a result for. However, you can also answer as yourself! \n \n Please note that this test is meant to be taken for fun, and is still in its development stage. Feedback is appreciated, send your comments to @_TastyTales \n \n CSS by @mikhailchip \n \n Thanks to @Grey_krow for his JavaScript help! \n \n Select which test to take.";
@@ -539,7 +540,7 @@ wpreyStatements = [
     },
 
      {
-       question: 'I sometimes get jealous of other prey.',      
+       question: 'I sometimes get jealous of other prey.',
      answers: [
        { type: 'S', value: 3 },
         { type: 'S', value: 1 },
@@ -549,7 +550,7 @@ wpreyStatements = [
       ]
     },
 
-    {question:  "I disdain predators who can't appreciate how delicious I am",      
+    {question:  "I disdain predators who can't appreciate how delicious I am",
     answers: [
        { type: 'S', value: 3 },
         { type: 'S', value: 1 },
@@ -714,7 +715,7 @@ wpreyStatements = [
 
     /* W PREY -  ACTIVE */
 
-    {question: 'I make myself a target to predators however I can.', 
+    {question: 'I make myself a target to predators however I can.',
               answers: [
              { type: 'P', value: 3 },
         { type: 'P', value: 1 },
@@ -798,7 +799,7 @@ wpreyStatements = [
         { type: 'P', value: 3 },
       ]
     },
-    {question: 
+    {question:
     'I like to talk with my predator, calmly outlining what I would enjoy.',
         answers: [
         { type: 'A', value: 3 },
@@ -811,7 +812,7 @@ wpreyStatements = [
 
     /* W PREY -  SEXUAL */
 
-    {question: 
+    {question:
     'Nothing turns me on quite like sliding down a throat.',
         answers: [
         { type: 'N', value: 3 },
@@ -820,8 +821,8 @@ wpreyStatements = [
         { type: 'X', value: 1 },
         { type: 'X', value: 3 },
       ]
-    },    
-    {question:     
+    },
+    {question:
     "I typically need to pleasure myself after being confined to a predator's stomach",
         answers: [
         { type: 'N', value: 3 },
@@ -861,7 +862,7 @@ wpreyStatements = [
 
     /* W PREY -  SENSUAL */
 
-   {question:  'Being in a stomach is comforting.', 
+   {question:  'Being in a stomach is comforting.',
     answers: [ { type: 'X', value: 3 },
         { type: 'X', value: 1 },
         { type: null, value: null },
@@ -890,7 +891,7 @@ wpreyStatements = [
         { type: 'N', value: 3 },
       ]
     },
-    {question:  'I use vore as a chance to escape my boring day-to-day life.', 
+    {question:  'I use vore as a chance to escape my boring day-to-day life.',
         answers: [ { type: 'X', value: 3 },
         { type: 'X', value: 1 },
         { type: null, value: null },
@@ -904,7 +905,7 @@ upreyStatements = [
 
     //  UW = INDIVIDUAL
 
-    {question:  
+    {question:
     'I roll my eyes at predators who tell me how hungry they are.',
         answers: [ { type: 'S', value: 3 },
         { type: 'S', value: 1 },
@@ -914,7 +915,7 @@ upreyStatements = [
       ]
     },
 
-     {question:   
+     {question:
       'Teasing me about being prey rarely gets a predator anywhere.',
         answers: [ { type: 'S', value: 3 },
         { type: 'S', value: 1 },
@@ -924,7 +925,7 @@ upreyStatements = [
       ]
     },
 
-    {question:    
+    {question:
      "I'm not afraid to hurt a predator if it means escaping them.",
         answers: [ { type: 'S', value: 3 },
         { type: 'S', value: 1 },
@@ -934,7 +935,7 @@ upreyStatements = [
       ]
     },
 
-     {question:   
+     {question:
       'Willing Prey perplex me.',
         answers: [ { type: 'S', value: 3 },
         { type: 'S', value: 1 },
@@ -944,7 +945,7 @@ upreyStatements = [
       ]
     },
 
-       {question:  
+       {question:
        "I'm not above poisoning my predator if I'm eaten by them.",
         answers: [ { type: 'S', value: 3 },
         { type: 'S', value: 1 },
@@ -956,7 +957,7 @@ upreyStatements = [
 
     // UW = SHARED
 
-       {question:  
+       {question:
        'I sometimes falter if a predator appeals to my sense of good will.',
     answers: [ { type: 'I', value: 3 },
         { type: 'I', value: 1 },
@@ -966,7 +967,7 @@ upreyStatements = [
       ]
     },
 
-    {question:   
+    {question:
     'If I made an agreement to be prey, I would begrudgingly uphold it.',
     answers: [ { type: 'I', value: 3 },
         { type: 'I', value: 1 },
@@ -976,7 +977,7 @@ upreyStatements = [
       ]
     },
 
-    {question:   
+    {question:
     'I try my best to reason with a predator when cornered',
     answers: [ { type: 'I', value: 3 },
         { type: 'I', value: 1 },
@@ -986,7 +987,7 @@ upreyStatements = [
       ]
     },
 
-    {question:   
+    {question:
     'I have a few select individuals I might consider being eaten by.',
     answers: [ { type: 'I', value: 3 },
         { type: 'I', value: 1 },
@@ -996,7 +997,7 @@ upreyStatements = [
       ]
     },
 
-    {question:    
+    {question:
    'I could be convinced to be prey, for a high price or extremely good reason.',
     answers: [ { type: 'I', value: 3 },
         { type: 'I', value: 1 },
@@ -1007,8 +1008,8 @@ upreyStatements = [
     },
 
     // UW - VISCERAL
-    
-    {question: 
+
+    {question:
     'Being in a tight, cramped stomach sounds like my worst nightmare.',
     answers: [ { type: 'E', value: 3 },
         { type: 'E', value: 1 },
@@ -1018,7 +1019,7 @@ upreyStatements = [
       ]
     },
 
-    {question: 
+    {question:
     'I try to find ways to protect myself from stomach acids, avoiding digesting for as long as I can.',
        answers: [ { type: 'E', value: 3 },
         { type: 'E', value: 1 },
@@ -1037,7 +1038,7 @@ upreyStatements = [
       ]
     },
 
-    {question: 
+    {question:
     'I would kick and yell to attract the attention of passers by if I were eaten.',
           answers: [ { type: 'E', value: 3 },
         { type: 'E', value: 1 },
@@ -1047,7 +1048,7 @@ upreyStatements = [
       ]
     },
 
-    {question: 
+    {question:
     'My fear of being devoured stems majorly from the physical pain I would be in.',
           answers: [ { type: 'E', value: 3 },
         { type: 'E', value: 1 },
@@ -1059,7 +1060,7 @@ upreyStatements = [
 
     // UW - EMOTIONAL
 
-    {question: 
+    {question:
     "Being in a predator's gut would be ungodly humiliating.",
         answers: [ { type: 'V', value: 3 },
         { type: 'V', value: 1 },
@@ -1069,7 +1070,7 @@ upreyStatements = [
       ]
     },
 
-    {question: 
+    {question:
     'A predator can tease me to the point of blushing.',
         answers: [ { type: 'V', value: 3 },
         { type: 'V', value: 1 },
@@ -1079,7 +1080,7 @@ upreyStatements = [
       ]
     },
 
-    {question: 
+    {question:
     "I'd rather disappear entirely than have my friends know I was ever prey.",
         answers: [ { type: 'V', value: 3 },
         { type: 'V', value: 1 },
@@ -1088,8 +1089,8 @@ upreyStatements = [
         { type: 'E', value: 3 },
       ]
     },
-    
-    {question: 
+
+    {question:
     "I try not to be noticable when I'm eaten, to avoid attracting attention and further embarrassment.",
         answers: [ { type: 'V', value: 3 },
         { type: 'V', value: 1 },
@@ -1099,7 +1100,7 @@ upreyStatements = [
       ]
     },
 
-    {question: 
+    {question:
     'Being eaten makes me feel weak and submissive.',
         answers: [ { type: 'V', value: 3 },
         { type: 'V', value: 1 },
@@ -1111,7 +1112,7 @@ upreyStatements = [
 
     // UW - ACTIVE
 
-    {question: 
+    {question:
     "I put up a fight and try to escape when I'm caught.",
         answers: [ { type: 'P', value: 3 },
         { type: 'P', value: 1 },
@@ -1121,7 +1122,7 @@ upreyStatements = [
       ]
     },
 
-    {question: 
+    {question:
     "I would never submit to a predator's whims.",
         answers: [ { type: 'P', value: 3 },
         { type: 'P', value: 1 },
@@ -1131,7 +1132,7 @@ upreyStatements = [
       ]
     },
 
-    {question: 
+    {question:
     'Predators would need to tie me up to keep me from escaping.',
         answers: [ { type: 'P', value: 3 },
         { type: 'P', value: 1 },
@@ -1141,7 +1142,7 @@ upreyStatements = [
       ]
     },
 
-    {question: 
+    {question:
     'I would attempt to climb back up the throat if I were eaten',
         answers: [ { type: 'P', value: 3 },
         { type: 'P', value: 1 },
@@ -1151,7 +1152,7 @@ upreyStatements = [
       ]
     },
 
-    {question: 
+    {question:
     "I'd be glad knowing I gave a predator a stomach ache for eating me.",
         answers: [ { type: 'P', value: 3 },
         { type: 'P', value: 1 },
@@ -1163,7 +1164,7 @@ upreyStatements = [
 
     // UW - PASSIVE
 
-    {question: 
+    {question:
     "I resign to my fate when I'm caught.",
         answers: [ { type: 'A', value: 3 },
         { type: 'A', value: 1 },
@@ -1172,7 +1173,7 @@ upreyStatements = [
         { type: 'P', value: 3 },
       ]
     },
-    {question: 
+    {question:
     "I'll often play along with the predator if it means I might not be eaten.",
         answers: [ { type: 'A', value: 3 },
         { type: 'A', value: 1 },
@@ -1181,7 +1182,7 @@ upreyStatements = [
         { type: 'P', value: 3 },
       ]
     },
-    {question: 
+    {question:
     "I'll go down without a fight, even if I hate it every step of the way.",
         answers: [ { type: 'A', value: 3 },
         { type: 'A', value: 1 },
@@ -1190,7 +1191,7 @@ upreyStatements = [
         { type: 'P', value: 3 },
       ]
     },
-    {question: 
+    {question:
     "I'd rather conserve my energy and struggle in a gut than tire myself out struggling in a throat.",
         answers: [ { type: 'A', value: 3 },
         { type: 'A', value: 1 },
@@ -1199,7 +1200,7 @@ upreyStatements = [
         { type: 'P', value: 3 },
       ]
     },
-    {question: 
+    {question:
     "I'm likely to give up the moment the predator belches.",
         answers: [ { type: 'A', value: 3 },
         { type: 'A', value: 1 },
@@ -1211,7 +1212,7 @@ upreyStatements = [
 
     // UW - SEXUAL
 
-    {question: 
+    {question:
     "I sometimes feel aroused when I'm in someone's jaws, even if I don't want to be.",
         answers: [ { type: 'N', value: 3 },
         { type: 'N', value: 1 },
@@ -1220,7 +1221,7 @@ upreyStatements = [
         { type: 'X', value: 3 },
       ]
     },
-    {question: 
+    {question:
     'A predator can get me to moan if they rub their gut just right.',
         answers: [ { type: 'N', value: 3 },
         { type: 'N', value: 1 },
@@ -1229,7 +1230,7 @@ upreyStatements = [
         { type: 'X', value: 3 },
       ]
     },
-    {question: 
+    {question:
     'I have some preferences on who, or what, I would want to be eaten by if I had no choice.',
         answers: [ { type: 'N', value: 3 },
         { type: 'N', value: 1 },
@@ -1238,7 +1239,7 @@ upreyStatements = [
         { type: 'X', value: 3 },
       ]
     },
-    {question: 
+    {question:
     "If I did get eaten, I'd want the predator to be physically attractive ",
         answers: [ { type: 'N', value: 3 },
         { type: 'N', value: 1 },
@@ -1247,7 +1248,7 @@ upreyStatements = [
         { type: 'X', value: 3 },
       ]
     },
-    {question: 
+    {question:
     "Being told how I would add to someone's hips is oddly invigorating.",
         answers: [ { type: 'N', value: 3 },
         { type: 'N', value: 1 },
@@ -1259,8 +1260,8 @@ upreyStatements = [
 
 
     // UW - SENSUAL
-    
-    {question: 
+
+    {question:
     "My friends would describe me as 'pouty' if they successfully stomach me.",
         answers: [ { type: 'X', value: 3 },
         { type: 'X', value: 1 },
@@ -1269,7 +1270,7 @@ upreyStatements = [
         { type: 'N', value: 3 },
       ]
     },
-    {question: 
+    {question:
     "I would reluctantly rub a predator's gut if it meant a chance at being let out.",
         answers: [ { type: 'X', value: 3 },
         { type: 'X', value: 1 },
@@ -1278,7 +1279,7 @@ upreyStatements = [
         { type: 'N', value: 3 },
       ]
     },
-    {question: 
+    {question:
     "I would try to appeal to a predator's sense of humanity to convince them not to eat me.",
         answers: [ { type: 'X', value: 3 },
         { type: 'X', value: 1 },
@@ -1287,7 +1288,7 @@ upreyStatements = [
         { type: 'N', value: 3 },
       ]
     },
-    {question: 
+    {question:
     'I will bargain with a predator for my freedom.',
         answers: [ { type: 'X', value: 3 },
         { type: 'X', value: 1 },
@@ -1296,7 +1297,7 @@ upreyStatements = [
         { type: 'N', value: 3 },
       ]
     },
-    {question: 
+    {question:
     'I could never find being eaten arousing.',
         answers: [ { type: 'X', value: 3 },
         { type: 'X', value: 1 },
@@ -1304,7 +1305,7 @@ upreyStatements = [
         { type: 'N', value: 1 },
         { type: 'N', value: 3 },
       ]
-     } 
+     }
 ];
 
 //TestLogic
@@ -1319,6 +1320,7 @@ var typeDesc = '';
 // Functions used to hide buttons when not in use, and show them when they are.
 
 scorestable.style.display = 'none';
+shareLink.style.display = 'none';
 resetbtn.style.display = 'none';
 
 function hideType() {
@@ -1379,11 +1381,13 @@ function resetTest() {
     .classList.remove('progress-bar-full');
   progressbarfill.style.width = 0;
   scorestable.style.display = 'none';
+  shareLink.style.display = 'none';
 }
 
 resetbtn.addEventListener('click', function () {
   resetTest();
   resetScores();
+  window.location.hash = '#';
 });
 
 function finalResult() {
@@ -1429,6 +1433,9 @@ function finalResult() {
   //  textarea.innerText = typeDesc;
   descriptions();
   scorestable.style.display = 'block';
+  window.location.hash = `#${type}/${I}-${S}-${V}-${E}-${A}-${P}-${X}-${N}`;
+  shareLink.setAttribute('href', window.location.toString());
+  shareLink.style.display = 'block';
 }
 
 function question() {
@@ -2025,3 +2032,56 @@ function descriptions() {
   scoreX.innerText = Math.round(xPerc) + '%';
   scoreN.innerText = Math.round(nPerc) + '%';
 }
+
+// Initialisation
+const hashRegex = /^#([IS][VE][AP][XN])(?:-([WU]))?\/?(?:\/(\d{1,3}(?:-(\d{1,3})){7}))?$/i;
+
+function processHash() {
+  if (window.location.hash == '' || window.location.hash == '#') {
+    resetTest();
+    resetScores();
+  } else {
+    const m = hashRegex.exec(window.location.hash);
+    if (m !== null) {
+      switch ((m[2] ?? '').toUpperCase()) {
+        case 'W':
+          title.innerText = title.innerText + ' - Willing Prey';
+          testType = wpreyStatements;
+          document.body.className = 'wpreybody';
+          break;
+        case 'U':
+          title.innerText = title.innerText + ' - Unwilling Prey';
+          testType = upreyStatements;
+          document.body.className = 'upreybody';
+          break;
+        default:
+          title.innerText = title.innerText + ' - Predator';
+          testType = predStatements;
+          document.body.className = 'predbody';
+          break;
+      }
+      if (m[3]) {
+        const tokens = m[3].split('-');
+        I = parseInt(tokens[0]);
+        S = parseInt(tokens[1]);
+        V = parseInt(tokens[2]);
+        E = parseInt(tokens[3]);
+        A = parseInt(tokens[4]);
+        P = parseInt(tokens[5]);
+        X = parseInt(tokens[6]);
+        N = parseInt(tokens[7]);
+      } else {
+        const type = m[1].toUpperCase();
+        if (type[0] == 'I') I = 30; else S = 30;
+        if (type[1] == 'V') V = 30; else E = 30;
+        if (type[2] == 'A') A = 30; else P = 30;
+        if (type[3] == 'X') X = 30; else N = 30;
+      }
+      hideType();
+      finalResult();
+    }
+  }
+}
+
+window.addEventListener('hashchange', processHash);
+processHash();
