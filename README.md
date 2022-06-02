@@ -1,12 +1,24 @@
-- Finished all Descriptions v2
+Welcome to the Vore Personality Test, currently being managed by @_TastyTales! 
 
-Work to be done:
+I'm happy to look at any Pull Requests, hoping to keep working on the project myself. Current things I'm planning are:
 
-Add Percentages.
+TO DO LIST:
+- Adding an Unwilling Predator Test
 
-Pretty it Up. 
+- Creating 'Master Tests' that combine both for Predators and Prey and add a new Unwilling/Willing stat.
 
-Rework Descriptions to follow format ("You are" or "IEPN is").
+- Dare I say it, making a disgustingly long 160 question "Switch Test"? 
 
-Add relationships with other types.
-Add 'Type overview page'
+- Refining the Personalities to match a specific format (Right now it's a mix of "You are" and "SEPN is", this should be universal across all results.
+
+- Adding details on how percentages affect outcomes.
+
+- Moving the percentage box up to the top of the page for easier screencapping (Probably replacing the progress bar with it on the Results page)
+
+- Adding a way to navigate between different types.
+
+- Writing how different types interact.
+
+- Enhancing the Descriptions to talk about how different 'leading categories' might affect your personality (For instance, an IVAN who's I value is the highest would be more selfish, but one who's A value is the highest would be more focused on the thrill of the chase.)
+
+- A warning for matching scores, suggesting the user checks the other type (and then providing a link to it) to see if that's closer to them.
