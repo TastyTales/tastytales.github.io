@@ -1,0 +1,1002 @@
+[
+    {
+      "question": "My predator should accommodate my tastes.",
+      "answers": [
+        {
+          "type": "S",
+          "value": 3
+        },
+        {
+          "type": "S",
+          "value": 1
+        },
+        {
+          "type": null,
+          "value": null
+        },
+        {
+          "type": "I",
+          "value": 1
+        },
+        {
+          "type": "I",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "question": "I would forcefeed myself to someone if they were reluctant to eat me.",
+      "answers": [
+        {
+          "type": "S",
+          "value": 3
+        },
+        {
+          "type": "S",
+          "value": 1
+        },
+        {
+          "type": null,
+          "value": null
+        },
+        {
+          "type": "I",
+          "value": 1
+        },
+        {
+          "type": "I",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "question": "I sometimes catch predators off guard with my willingness",
+      "answers": [
+        {
+          "type": "S",
+          "value": 3
+        },
+        {
+          "type": "S",
+          "value": 1
+        },
+        {
+          "type": null,
+          "value": null
+        },
+        {
+          "type": "I",
+          "value": 1
+        },
+        {
+          "type": "I",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "question": "I sometimes get jealous of other prey.",
+      "answers": [
+        {
+          "type": "S",
+          "value": 3
+        },
+        {
+          "type": "S",
+          "value": 1
+        },
+        {
+          "type": null,
+          "value": null
+        },
+        {
+          "type": "I",
+          "value": 1
+        },
+        {
+          "type": "I",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "question": "I disdain predators who can't appreciate how delicious I am",
+      "answers": [
+        {
+          "type": "S",
+          "value": 3
+        },
+        {
+          "type": "S",
+          "value": 1
+        },
+        {
+          "type": null,
+          "value": null
+        },
+        {
+          "type": "I",
+          "value": 1
+        },
+        {
+          "type": "I",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "question": "I would feel comfortable sharing a stomach with another prey.",
+      "answers": [
+        {
+          "type": "I",
+          "value": 3
+        },
+        {
+          "type": "I",
+          "value": 1
+        },
+        {
+          "type": null,
+          "value": null
+        },
+        {
+          "type": "S",
+          "value": 1
+        },
+        {
+          "type": "S",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "question": "I enjoy hearing sounds of approval from my predator.",
+      "answers": [
+        {
+          "type": "I",
+          "value": 3
+        },
+        {
+          "type": "I",
+          "value": 1
+        },
+        {
+          "type": null,
+          "value": null
+        },
+        {
+          "type": "S",
+          "value": 1
+        },
+        {
+          "type": "S",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "question": "I love helping a predator practice devouring people, myself included.",
+      "answers": [
+        {
+          "type": "I",
+          "value": 3
+        },
+        {
+          "type": "I",
+          "value": 1
+        },
+        {
+          "type": null,
+          "value": null
+        },
+        {
+          "type": "S",
+          "value": 1
+        },
+        {
+          "type": "S",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "question": "I'd do everything I could to make myself easier to swallow for a predator.",
+      "answers": [
+        {
+          "type": "I",
+          "value": 3
+        },
+        {
+          "type": "I",
+          "value": 1
+        },
+        {
+          "type": null,
+          "value": null
+        },
+        {
+          "type": "S",
+          "value": 1
+        },
+        {
+          "type": "S",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "question": "I would want my predator to treat me with the same respect I give them.",
+      "answers": [
+        {
+          "type": "I",
+          "value": 3
+        },
+        {
+          "type": "I",
+          "value": 1
+        },
+        {
+          "type": null,
+          "value": null
+        },
+        {
+          "type": "S",
+          "value": 1
+        },
+        {
+          "type": "S",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "question": "I'd want my predator to treat me like food, and nothing more.",
+      "answers": [
+        {
+          "type": "E",
+          "value": 3
+        },
+        {
+          "type": "E",
+          "value": 1
+        },
+        {
+          "type": null,
+          "value": null
+        },
+        {
+          "type": "V",
+          "value": 1
+        },
+        {
+          "type": "V",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "question": "I'd gladly share a stomach with regular food.",
+      "answers": [
+        {
+          "type": "E",
+          "value": 3
+        },
+        {
+          "type": "E",
+          "value": 1
+        },
+        {
+          "type": null,
+          "value": null
+        },
+        {
+          "type": "V",
+          "value": 1
+        },
+        {
+          "type": "V",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "question": "The sensation of being devoured is the most important part.",
+      "answers": [
+        {
+          "type": "E",
+          "value": 3
+        },
+        {
+          "type": "E",
+          "value": 1
+        },
+        {
+          "type": null,
+          "value": null
+        },
+        {
+          "type": "V",
+          "value": 1
+        },
+        {
+          "type": "V",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "question": "I wouldn't mind being eaten by a total stranger.",
+      "answers": [
+        {
+          "type": "E",
+          "value": 3
+        },
+        {
+          "type": "E",
+          "value": 1
+        },
+        {
+          "type": null,
+          "value": null
+        },
+        {
+          "type": "V",
+          "value": 1
+        },
+        {
+          "type": "V",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "question": "I'd rather my predator rub me from the outside than speak to me when I'm in their belly",
+      "answers": [
+        {
+          "type": "E",
+          "value": 3
+        },
+        {
+          "type": "E",
+          "value": 1
+        },
+        {
+          "type": null,
+          "value": null
+        },
+        {
+          "type": "V",
+          "value": 1
+        },
+        {
+          "type": "V",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "question": "I want to feel like I'm someone special to my predator.",
+      "answers": [
+        {
+          "type": "V",
+          "value": 3
+        },
+        {
+          "type": "V",
+          "value": 1
+        },
+        {
+          "type": null,
+          "value": null
+        },
+        {
+          "type": "E",
+          "value": 1
+        },
+        {
+          "type": "E",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "question": "Listening to my predator's heartbeat from the inside soothes me.",
+      "answers": [
+        {
+          "type": "V",
+          "value": 3
+        },
+        {
+          "type": "V",
+          "value": 1
+        },
+        {
+          "type": null,
+          "value": null
+        },
+        {
+          "type": "E",
+          "value": 1
+        },
+        {
+          "type": "E",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "question": "An emotional connection to my predator is paramount in vore.",
+      "answers": [
+        {
+          "type": "V",
+          "value": 3
+        },
+        {
+          "type": "V",
+          "value": 1
+        },
+        {
+          "type": null,
+          "value": null
+        },
+        {
+          "type": "E",
+          "value": 1
+        },
+        {
+          "type": "E",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "question": "I'd rather be eaten by my friends than strangers.",
+      "answers": [
+        {
+          "type": "V",
+          "value": 3
+        },
+        {
+          "type": "V",
+          "value": 1
+        },
+        {
+          "type": null,
+          "value": null
+        },
+        {
+          "type": "E",
+          "value": 1
+        },
+        {
+          "type": "E",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "question": "I'd want to chat with my predator while I was in their stomach",
+      "answers": [
+        {
+          "type": "V",
+          "value": 3
+        },
+        {
+          "type": "V",
+          "value": 1
+        },
+        {
+          "type": null,
+          "value": null
+        },
+        {
+          "type": "E",
+          "value": 1
+        },
+        {
+          "type": "E",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "question": "I make myself a target to predators however I can.",
+      "answers": [
+        {
+          "type": "P",
+          "value": 3
+        },
+        {
+          "type": "P",
+          "value": 1
+        },
+        {
+          "type": null,
+          "value": null
+        },
+        {
+          "type": "A",
+          "value": 1
+        },
+        {
+          "type": "A",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "question": "When I see a predator yawn, I have to hold myself back from diving right in",
+      "answers": [
+        {
+          "type": "P",
+          "value": 3
+        },
+        {
+          "type": "P",
+          "value": 1
+        },
+        {
+          "type": null,
+          "value": null
+        },
+        {
+          "type": "A",
+          "value": 1
+        },
+        {
+          "type": "A",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "question": "I love struggling and rubbing the walls when I'm in a gut.",
+      "answers": [
+        {
+          "type": "P",
+          "value": 3
+        },
+        {
+          "type": "P",
+          "value": 1
+        },
+        {
+          "type": null,
+          "value": null
+        },
+        {
+          "type": "A",
+          "value": 1
+        },
+        {
+          "type": "A",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "question": "I put myself in perilous situations on the prospect of being eaten.",
+      "answers": [
+        {
+          "type": "P",
+          "value": 3
+        },
+        {
+          "type": "P",
+          "value": 1
+        },
+        {
+          "type": null,
+          "value": null
+        },
+        {
+          "type": "A",
+          "value": 1
+        },
+        {
+          "type": "A",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "question": "I like to leave my fate up to games of chance.",
+      "answers": [
+        {
+          "type": "P",
+          "value": 3
+        },
+        {
+          "type": "P",
+          "value": 1
+        },
+        {
+          "type": null,
+          "value": null
+        },
+        {
+          "type": "A",
+          "value": 1
+        },
+        {
+          "type": "A",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "question": "I don't draw attention to myself, waiting for predators to come to me.",
+      "answers": [
+        {
+          "type": "A",
+          "value": 3
+        },
+        {
+          "type": "A",
+          "value": 1
+        },
+        {
+          "type": null,
+          "value": null
+        },
+        {
+          "type": "P",
+          "value": 1
+        },
+        {
+          "type": "P",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "question": "Open maws and big bellies make me flustered.",
+      "answers": [
+        {
+          "type": "A",
+          "value": 3
+        },
+        {
+          "type": "A",
+          "value": 1
+        },
+        {
+          "type": null,
+          "value": null
+        },
+        {
+          "type": "P",
+          "value": 1
+        },
+        {
+          "type": "P",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "question": "I lay back and let the predator do the work when I'm in a stomach.",
+      "answers": [
+        {
+          "type": "A",
+          "value": 3
+        },
+        {
+          "type": "A",
+          "value": 1
+        },
+        {
+          "type": null,
+          "value": null
+        },
+        {
+          "type": "P",
+          "value": 1
+        },
+        {
+          "type": "P",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "question": "I take the safe route wherever I can, but predators find me anyway.",
+      "answers": [
+        {
+          "type": "A",
+          "value": 3
+        },
+        {
+          "type": "A",
+          "value": 1
+        },
+        {
+          "type": null,
+          "value": null
+        },
+        {
+          "type": "P",
+          "value": 1
+        },
+        {
+          "type": "P",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "question": "I like to talk with my predator, calmly outlining what I would enjoy.",
+      "answers": [
+        {
+          "type": "A",
+          "value": 3
+        },
+        {
+          "type": "A",
+          "value": 1
+        },
+        {
+          "type": null,
+          "value": null
+        },
+        {
+          "type": "P",
+          "value": 1
+        },
+        {
+          "type": "P",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "question": "Nothing turns me on quite like sliding down a throat.",
+      "answers": [
+        {
+          "type": "N",
+          "value": 3
+        },
+        {
+          "type": "N",
+          "value": 1
+        },
+        {
+          "type": null,
+          "value": null
+        },
+        {
+          "type": "X",
+          "value": 1
+        },
+        {
+          "type": "X",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "question": "I typically need to pleasure myself after being confined to a predator's stomach",
+      "answers": [
+        {
+          "type": "N",
+          "value": 3
+        },
+        {
+          "type": "N",
+          "value": 1
+        },
+        {
+          "type": null,
+          "value": null
+        },
+        {
+          "type": "X",
+          "value": 1
+        },
+        {
+          "type": "X",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "question": "I have wet dreams about being devoured.",
+      "answers": [
+        {
+          "type": "N",
+          "value": 3
+        },
+        {
+          "type": "N",
+          "value": 1
+        },
+        {
+          "type": null,
+          "value": null
+        },
+        {
+          "type": "X",
+          "value": 1
+        },
+        {
+          "type": "X",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "question": "My predator should pay special attention to my crotch when it's in their mouth.",
+      "answers": [
+        {
+          "type": "N",
+          "value": 3
+        },
+        {
+          "type": "N",
+          "value": 1
+        },
+        {
+          "type": null,
+          "value": null
+        },
+        {
+          "type": "X",
+          "value": 1
+        },
+        {
+          "type": "X",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "question": "I enjoy flirtatious comments from my predator.",
+      "answers": [
+        {
+          "type": "N",
+          "value": 3
+        },
+        {
+          "type": "N",
+          "value": 1
+        },
+        {
+          "type": null,
+          "value": null
+        },
+        {
+          "type": "X",
+          "value": 1
+        },
+        {
+          "type": "X",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "question": "Being in a stomach is comforting.",
+      "answers": [
+        {
+          "type": "X",
+          "value": 3
+        },
+        {
+          "type": "X",
+          "value": 1
+        },
+        {
+          "type": null,
+          "value": null
+        },
+        {
+          "type": "N",
+          "value": 1
+        },
+        {
+          "type": "N",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "question": "I relish the thought of becoming part of my predator's body.",
+      "answers": [
+        {
+          "type": "X",
+          "value": 3
+        },
+        {
+          "type": "X",
+          "value": 1
+        },
+        {
+          "type": null,
+          "value": null
+        },
+        {
+          "type": "N",
+          "value": 1
+        },
+        {
+          "type": "N",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "question": "I imagine myself in a stomach when I need to relax.",
+      "answers": [
+        {
+          "type": "X",
+          "value": 3
+        },
+        {
+          "type": "X",
+          "value": 1
+        },
+        {
+          "type": null,
+          "value": null
+        },
+        {
+          "type": "N",
+          "value": 1
+        },
+        {
+          "type": "N",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "question": "Being eaten can be a great boost to my mood and confidence.",
+      "answers": [
+        {
+          "type": "X",
+          "value": 3
+        },
+        {
+          "type": "X",
+          "value": 1
+        },
+        {
+          "type": null,
+          "value": null
+        },
+        {
+          "type": "N",
+          "value": 1
+        },
+        {
+          "type": "N",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "question": "I use vore as a chance to escape my boring day-to-day life.",
+      "answers": [
+        {
+          "type": "X",
+          "value": 3
+        },
+        {
+          "type": "X",
+          "value": 1
+        },
+        {
+          "type": null,
+          "value": null
+        },
+        {
+          "type": "N",
+          "value": 1
+        },
+        {
+          "type": "N",
+          "value": 3
+        }
+      ]
+    }
+  ]
