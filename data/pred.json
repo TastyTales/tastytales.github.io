@@ -1,0 +1,1002 @@
+[
+  {
+    "question": "The feelings of my prey matter little to me",
+    "answers": [
+      {
+        "type": "S",
+        "value": 3
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": "I",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "My prey should be content that I have deemed them worthy of being my food.",
+    "answers": [
+      {
+        "type": "S",
+        "value": 3
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": "I",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "If I take my time with my prey, it is entirely for my own satisfaction.",
+    "answers": [
+      {
+        "type": "S",
+        "value": 3
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": "I",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "Struggling prey need to learn their place.",
+    "answers": [
+      {
+        "type": "S",
+        "value": 3
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": "I",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "Prey who shout about how they don't want to be eaten are only proving they deserve to be.",
+    "answers": [
+      {
+        "type": "S",
+        "value": 3
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": "I",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I would stop devouring my prey if they were uncomfortable.",
+    "answers": [
+      {
+        "type": "I",
+        "value": 3
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": "S",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I listen to what my prey wants and try to satisfy both their needs and my own.",
+    "answers": [
+      {
+        "type": "I",
+        "value": 3
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": "S",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I prefer my prey to be willing; if they’re not, I might try to tempt them into it.",
+    "answers": [
+      {
+        "type": "I",
+        "value": 3
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": "S",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I try to find ways to make my prey feel comfortable with the process.",
+    "answers": [
+      {
+        "type": "I",
+        "value": 3
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": "S",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I would feel regret if I digested an unwilling prey.",
+    "answers": [
+      {
+        "type": "I",
+        "value": 3
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": "S",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I eat primarily to satisfy my hunger.",
+    "answers": [
+      {
+        "type": "E",
+        "value": 3
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": "V",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I’m often too distracted by the feeling of my prey’s muffled voice to understand what they’re saying.",
+    "answers": [
+      {
+        "type": "E",
+        "value": 3
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": "V",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "In the end, food is food.",
+    "answers": [
+      {
+        "type": "E",
+        "value": 3
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": "V",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I couldn't hold a conversation with my future prey; I'd be too busy thinking about how good they'll feel sliding down my gullet!",
+    "answers": [
+      {
+        "type": "E",
+        "value": 3
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": "V",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "Devouring prey makes me feel stronger.",
+    "answers": [
+      {
+        "type": "E",
+        "value": 3
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": "V",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "Swallowing prey isn't as satisfying if I don't get a reaction out of them.",
+    "answers": [
+      {
+        "type": "V",
+        "value": 3
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": "E",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I like the idea of holding someone else inside me more than how my prey might taste or feel.",
+    "answers": [
+      {
+        "type": "V",
+        "value": 3
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": "E",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I never forget that my prey are thinking, feeling beings.",
+    "answers": [
+      {
+        "type": "V",
+        "value": 3
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": "E",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I have fond memories of all the prey I've eaten before.",
+    "answers": [
+      {
+        "type": "V",
+        "value": 3
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": "E",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I especially enjoy eating people I'm close to.",
+    "answers": [
+      {
+        "type": "V",
+        "value": 3
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": "E",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I often go on the “hunt” for prey, be it in the wilds or in public.",
+    "answers": [
+      {
+        "type": "P",
+        "value": 3
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": "A",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "If my prey didn't want to be eaten, they should have tried harder to escape.",
+    "answers": [
+      {
+        "type": "P",
+        "value": 3
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": "A",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "When I see someone tasty, I immediately start thinking of ways to go about devouring them.",
+    "answers": [
+      {
+        "type": "P",
+        "value": 3
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": "A",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I'm not afraid to get rough with my prey if I need to.",
+    "answers": [
+      {
+        "type": "P",
+        "value": 3
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": "A",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I enjoy the thrill of the chase.",
+    "answers": [
+      {
+        "type": "P",
+        "value": 3
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": "A",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I wait for prey to come to me, rather than seeking them out.",
+    "answers": [
+      {
+        "type": "A",
+        "value": 3
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": "P",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I love meeting potential prey for a drink and a chat before 'the main course.'",
+    "answers": [
+      {
+        "type": "A",
+        "value": 3
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": "P",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I get nervous about expressing my desire to eat someone.",
+    "answers": [
+      {
+        "type": "A",
+        "value": 3
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": "P",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I prefer it when my prey makes the first move.",
+    "answers": [
+      {
+        "type": "A",
+        "value": 3
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": "P",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I get flustered at the thought of having a full belly.",
+    "answers": [
+      {
+        "type": "A",
+        "value": 3
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": "P",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "The feeling of a prey disappearing into my gut arouses me.",
+    "answers": [
+      {
+        "type": "N",
+        "value": 3
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": "X",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I'll sometimes grind against my squirming gut after eating a prey.",
+    "answers": [
+      {
+        "type": "N",
+        "value": 3
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": "X",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I continue to tease my prey long after they're gone.",
+    "answers": [
+      {
+        "type": "N",
+        "value": 3
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": "X",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I like the weight from my prey to be added to my more 'seductive' assets.",
+    "answers": [
+      {
+        "type": "N",
+        "value": 3
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": "X",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I eat prey because it's sexy.",
+    "answers": [
+      {
+        "type": "N",
+        "value": 3
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": "X",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "Holding prey in my stomach is deeply comforting.",
+    "answers": [
+      {
+        "type": "X",
+        "value": 3
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": "N",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "Sometimes I caress my belly for hours, thinking of the prey inside.",
+    "answers": [
+      {
+        "type": "X",
+        "value": 3
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": "N",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I love falling into a food coma after eating prey.",
+    "answers": [
+      {
+        "type": "X",
+        "value": 3
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": "N",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "Vore doesn’t need to be sexually arousing to be an enjoyable experience.",
+    "answers": [
+      {
+        "type": "X",
+        "value": 3
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": "N",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I eat prey because it's fun.",
+    "answers": [
+      {
+        "type": "X",
+        "value": 3
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": "N",
+        "value": 3
+      }
+    ]
+  }
+]

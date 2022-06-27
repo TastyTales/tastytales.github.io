@@ -1,0 +1,1002 @@
+[
+  {
+    "question": "I roll my eyes at predators who tell me how hungry they are.",
+    "answers": [
+      {
+        "type": "S",
+        "value": 3
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": "I",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "Teasing me about being prey rarely gets a predator anywhere.",
+    "answers": [
+      {
+        "type": "S",
+        "value": 3
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": "I",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I'm not afraid to hurt a predator if it means escaping them.",
+    "answers": [
+      {
+        "type": "S",
+        "value": 3
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": "I",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "Willing Prey perplex me.",
+    "answers": [
+      {
+        "type": "S",
+        "value": 3
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": "I",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I'm not above poisoning my predator if I'm eaten by them.",
+    "answers": [
+      {
+        "type": "S",
+        "value": 3
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": "I",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I sometimes falter if a predator appeals to my sense of good will.",
+    "answers": [
+      {
+        "type": "I",
+        "value": 3
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": "S",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "If I made an agreement to be prey, I would begrudgingly uphold it.",
+    "answers": [
+      {
+        "type": "I",
+        "value": 3
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": "S",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I try my best to reason with a predator when cornered",
+    "answers": [
+      {
+        "type": "I",
+        "value": 3
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": "S",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I have a few select individuals I might consider being eaten by.",
+    "answers": [
+      {
+        "type": "I",
+        "value": 3
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": "S",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I could be convinced to be prey, for a high price or extremely good reason.",
+    "answers": [
+      {
+        "type": "I",
+        "value": 3
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": "S",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "Being in a tight, cramped stomach sounds like my worst nightmare.",
+    "answers": [
+      {
+        "type": "E",
+        "value": 3
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": "V",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I try to find ways to protect myself from stomach acids, avoiding digesting for as long as I can.",
+    "answers": [
+      {
+        "type": "E",
+        "value": 3
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": "V",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "Predators with sharp teeth make me feel nervous.",
+    "answers": [
+      {
+        "type": "E",
+        "value": 3
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": "V",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I would kick and yell to attract the attention of passers by if I were eaten.",
+    "answers": [
+      {
+        "type": "E",
+        "value": 3
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": "V",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "My fear of being devoured stems majorly from the physical pain I would be in.",
+    "answers": [
+      {
+        "type": "E",
+        "value": 3
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": "V",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "Being in a predator's gut would be ungodly humiliating.",
+    "answers": [
+      {
+        "type": "V",
+        "value": 3
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": "E",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "A predator can tease me to the point of blushing.",
+    "answers": [
+      {
+        "type": "V",
+        "value": 3
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": "E",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I'd rather disappear entirely than have my friends know I was ever prey.",
+    "answers": [
+      {
+        "type": "V",
+        "value": 3
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": "E",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I try not to be noticable when I'm eaten, to avoid attracting attention and further embarrassment.",
+    "answers": [
+      {
+        "type": "V",
+        "value": 3
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": "E",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "Being eaten makes me feel weak and submissive.",
+    "answers": [
+      {
+        "type": "V",
+        "value": 3
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": "E",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I put up a fight and try to escape when I'm caught.",
+    "answers": [
+      {
+        "type": "P",
+        "value": 3
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": "A",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I would never submit to a predator's whims.",
+    "answers": [
+      {
+        "type": "P",
+        "value": 3
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": "A",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "Predators would need to tie me up to keep me from escaping.",
+    "answers": [
+      {
+        "type": "P",
+        "value": 3
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": "A",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I would attempt to climb back up the throat if I were eaten",
+    "answers": [
+      {
+        "type": "P",
+        "value": 3
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": "A",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I'd be glad knowing I gave a predator a stomach ache for eating me.",
+    "answers": [
+      {
+        "type": "P",
+        "value": 3
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": "A",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I resign to my fate when I'm caught.",
+    "answers": [
+      {
+        "type": "A",
+        "value": 3
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": "P",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I'll often play along with the predator if it means I might not be eaten.",
+    "answers": [
+      {
+        "type": "A",
+        "value": 3
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": "P",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I'll go down without a fight, even if I hate it every step of the way.",
+    "answers": [
+      {
+        "type": "A",
+        "value": 3
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": "P",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I'd rather conserve my energy and struggle in a gut than tire myself out struggling in a throat.",
+    "answers": [
+      {
+        "type": "A",
+        "value": 3
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": "P",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I'm likely to give up the moment the predator belches.",
+    "answers": [
+      {
+        "type": "A",
+        "value": 3
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": "P",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I sometimes feel aroused when I'm in someone's jaws, even if I don't want to be.",
+    "answers": [
+      {
+        "type": "N",
+        "value": 3
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": "X",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "A predator can get me to moan if they rub their gut just right.",
+    "answers": [
+      {
+        "type": "N",
+        "value": 3
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": "X",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I have some preferences on who, or what, I would want to be eaten by if I had no choice.",
+    "answers": [
+      {
+        "type": "N",
+        "value": 3
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": "X",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "If I did get eaten, I'd want the predator to be physically attractive ",
+    "answers": [
+      {
+        "type": "N",
+        "value": 3
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": "X",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "Being told how I would add to someone's hips is oddly invigorating.",
+    "answers": [
+      {
+        "type": "N",
+        "value": 3
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": "X",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "My friends would describe me as 'pouty' if they successfully stomach me.",
+    "answers": [
+      {
+        "type": "X",
+        "value": 3
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": "N",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I would reluctantly rub a predator's gut if it meant a chance at being let out.",
+    "answers": [
+      {
+        "type": "X",
+        "value": 3
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": "N",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I would try to appeal to a predator's sense of humanity to convince them not to eat me.",
+    "answers": [
+      {
+        "type": "X",
+        "value": 3
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": "N",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I will bargain with a predator for my freedom.",
+    "answers": [
+      {
+        "type": "X",
+        "value": 3
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": "N",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "I could never find being eaten arousing.",
+    "answers": [
+      {
+        "type": "X",
+        "value": 3
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": "N",
+        "value": 3
+      }
+    ]
+  }
+]

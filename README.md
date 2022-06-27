@@ -22,3 +22,5 @@ TO DO LIST:
 - Enhancing the Descriptions to talk about how different 'leading categories' might affect your personality (For instance, an IVAN who's I value is the highest would be more selfish, but one who's A value is the highest would be more focused on the thrill of the chase.)
 
 - A warning for matching scores, suggesting the user checks the other type (and then providing a link to it) to see if that's closer to them.
+
+- Add better comments to the functions in the code
