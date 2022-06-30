@@ -1,214 +1,236 @@
 /* Styles go here */
 :root {
-	--menu: rgb(221,216,202);
-	--pred: rgb(224, 172, 95);
-	--wPrey: rgb(137, 226, 144);
-	--uPrey: rgb(199, 130, 226);
-	--currentTheme: rgb(221,216,202);
+    --menu: rgb(221,216,202);
+    --pred: rgb(224, 172, 95);
+    --wPrey: rgb(137, 226, 144);
+    --uPrey: rgb(199, 130, 226);
+    --currentTheme: rgb(221,216,202);
 }
 
+/* Page Setup*/
 
 body {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	gap: 5px;
-	margin: 0;
-	width: 100%;
-	height: 100vh;
-	background: linear-gradient(0deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), linear-gradient(90deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), linear-gradient(180deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), linear-gradient(270deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), #222;
-	background-size: contain;
-	background-attachment: fixed;
-	color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(0deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), linear-gradient(90deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), linear-gradient(180deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), linear-gradient(270deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), #222;
+    background-size: contain;
+    background-attachment: fixed;
+    color: #fff;
 }
 
-.predbody {
-	background: linear-gradient(0deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), linear-gradient(90deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), linear-gradient(180deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), linear-gradient(270deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), #222;
-	background-size: contain;
-	background-attachment: fixed;
+    body div {
+        max-width: max(60vw,500px);
+    }
+
+footer {
+    margin-top: 2rem;
 }
 
-.wpreybody {
-	background: linear-gradient(0deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), linear-gradient(90deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), linear-gradient(180deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), linear-gradient(270deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), #222;
-	background-size: contain;
-	background-attachment: fixed;
-}
-
-.upreybody {
-	background: linear-gradient(0deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), linear-gradient(90deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), linear-gradient(180deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), linear-gradient(270deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), #222;
-	background-size: contain;
-	background-attachment: fixed;
-}
+/* General Styling*/
 
 h1 {
-	font-family: "Kanit", sans-serif;
-	margin: 1.5rem 0 0 0;
+    font-family: "Kanit", sans-serif;
+    margin: 1.5rem 0 0 0;
 }
 
 h3 {
-	font-family: "Kanit", sans-serif;
-	font-size: 25px;
-	margin: 15 0;
-}
-
-.progress-bar {
-	width: 20rem;
-	height: 1rem;
-	border: 0.15rem solid black;
-}
-
-.progress-bar-full {
-	height: 1.00rem;
-	background: var(--currentTheme);
-	background: linear-gradient(270deg, rgb(255,255,255) 5px, var(--currentTheme) 20px);
-	filter: drop-shadow(0px 0px 5px var(--currentTheme));
-	width: 0%;
-	transition: .2s;
+    font-family: "Kanit", sans-serif;
+    font-size: 25px;
+    margin: 15 0;
 }
 
 p {
-	font-size: 20px;
+    font-size: 20px;
 }
 
-.pick-button-container {
-	display: flex;
-	width: 100%;
-	max-width: 500px;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: space-between;
+/* Test Themes */
+.predbody {
+    background: linear-gradient(0deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), linear-gradient(90deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), linear-gradient(180deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), linear-gradient(270deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), #222;
+    background-size: contain;
+    background-attachment: fixed;
 }
+
+.wpreybody {
+    background: linear-gradient(0deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), linear-gradient(90deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), linear-gradient(180deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), linear-gradient(270deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), #222;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+.upreybody {
+    background: linear-gradient(0deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), linear-gradient(90deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), linear-gradient(180deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), linear-gradient(270deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), #222;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+/* Progress Bar */
+.progress-bar {
+    width: 20rem;
+    height: 1rem;
+    border: 0.15rem solid black;
+}
+
+.progress-bar-full {
+    height: 1.00rem;
+    background: var(--currentTheme);
+    background: linear-gradient(270deg, rgb(255,255,255) 5px, var(--currentTheme) 20px);
+    filter: drop-shadow(0px 0px 5px var(--currentTheme));
+    width: 0%;
+    transition: .2s;
+}
+
+/* Test Type Buttons */
+.pick-button-container {
+    display: flex;
+    width: 100%;
+    max-width: inherit;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    filter: drop-shadow(3px 3px 12px #000);
+}
+
+    .pick-button-container button {
+        flex-grow: 1;
+        height: 3em;
+        font-family: "Kanit", sans-serif;
+        font-size: larger;
+        font-weight: bold;
+        border: none;
+    }
+
+        .pick-button-container button:first-of-type {
+            border-radius: 1em 0 0 1em;
+        }
+
+        .pick-button-container button:last-of-type {
+            border-radius: 0 1em 1em 0;
+        }
 
 .pick-pred {
-	width: 150px;
-	height: auto;
-	font-family: "Kanit", sans-serif;
-	font-size: larger;
-	font-weight: bold;
-	background-color: rgb(224, 172, 95);
-	border: 3px solid rgb(218, 154, 59);
-	border-radius: 15px;
-	box-shadow: 3px 3px 12px black;
+    background-color: var(--pred);
 }
+
+    .pick-pred:hover {
+        background-color: var(--pred);
+        filter: drop-shadow(3px 3px 12px var(--pred));
+    }
 
 .pick-wprey {
-	width: 150px;
-	height: auto;
-	font-family: "Kanit", sans-serif;
-	font-size: larger;
-	font-weight: bold;
-	background-color: rgb(137, 226, 144);
-	border: 3px solid rgb(87, 211, 97);
-	border-radius: 15px;
-	box-shadow: 3px 3px 12px black;
+    background-color: var(--wPrey);
 }
+
+    .pick-wprey:hover {
+        filter: drop-shadow(3px 3px 12px var(--wPrey));
+    }
 
 .pick-uprey {
-	width: 150px;
-	height: auto;
-	font-family: "Kanit", sans-serif;
-	font-size: larger;
-	font-weight: bold;
-	background-color: rgb(199, 130, 226);
-	border: 3px solid rgb(184, 118, 211);
-	border-radius: 15px;
-	box-shadow: 3px 3px 12px black;
+    background-color: var(--uPrey);
 }
 
+    .pick-uprey:hover {
+        filter: drop-shadow(3px 3px 12px var(--uPrey));
+    }
+
+/* Test Buttons */
+
 .testbuttons-container {
-	display: flex;
-	width: 100%;
-	max-width: 550px;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: space-between;
+    display: flex;
+    width: 100%;
+    max-width: 550px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .testbuttons {
-	width: -moz-fit-content;
-	width: fit-content;
-	height: auto;
-	font-family: "Kanit", sans-serif;
-	font-size: 16px;
-	background-color: rgb(218, 218, 218);
-	border-color: silver;
-	border-radius: 15px;
-	box-shadow: 3px 3px 12px black;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: auto;
+    font-family: "Kanit", sans-serif;
+    font-size: 16px;
+    background-color: rgb(218, 218, 218);
+    border-color: silver;
+    border-radius: 15px;
+    box-shadow: 3px 3px 12px black;
 }
 
 #textarea_header {
-	font-style: italic;
+    font-style: italic;
 }
 
+/* Results */
+
 table {
-	width: -moz-fit-content;
-	width: fit-content;
-	margin: 2rem;
-	font-size: 20px;
-	font-family: "Kanit", sans-serif;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 2rem;
+    font-size: 20px;
+    font-family: "Kanit", sans-serif;
 }
 
 caption {
-	font-size: 25px;
+    font-size: 25px;
 }
 
 td {
-	border: 3px solid silver;
-	border-style: ridge;
+    border: 3px solid silver;
+    border-style: ridge;
 }
 
 table tr:first-of-type {
-	background-color: #FFFBAE;
+    background-color: #FFFBAE;
 }
 
 table tr:nth-of-type(2) {
-	background-color: #F5898E;
+    background-color: #F5898E;
 }
 
 table tr:nth-of-type(3) {
-	background-color: #99D9EA;
+    background-color: #99D9EA;
 }
 
 table tr:last-of-type {
-	background-color: #FFAEC9;
+    background-color: #FFAEC9;
 }
 
 tr {
-	text-align: center;
+    text-align: center;
 }
 
-	tr td:first-of-type {
-		width: 40%;
-		padding: 0 2rem;
-	}
+    tr td:first-of-type {
+        width: 40%;
+        padding: 0 2rem;
+    }
 
-	tr td:last-of-type {
-		width: 40%;
-		padding: 0 2rem;
-	}
+    tr td:last-of-type {
+        width: 40%;
+        padding: 0 2rem;
+    }
 
-	tr td:nth-of-type(2) {
-		width: 10%;
-		padding: 0 .5rem;
-	}
+    tr td:nth-of-type(2) {
+        width: 10%;
+        padding: 0 .5rem;
+    }
 
-	tr td:nth-of-type(3) {
-		width: 10%;
-		padding: 0 .5rem;
-	}
+    tr td:nth-of-type(3) {
+        width: 10%;
+        padding: 0 .5rem;
+    }
 
 .reset-button {
-	width: 150px;
-	height: auto;
-	font-family: "Kanit", sans-serif;
-	font-size: 25px;
-	background-color: rgb(218, 218, 218);
-	border-color: silver;
-	border-radius: 15px;
-	box-shadow: 3px 3px 12px black;
+    width: 150px;
+    height: auto;
+    font-family: "Kanit", sans-serif;
+    font-size: 25px;
+    background-color: rgb(218, 218, 218);
+    border-color: silver;
+    border-radius: 15px;
+    box-shadow: 3px 3px 12px black;
 }
 
-footer {
-	margin-top: 2rem;
-}
