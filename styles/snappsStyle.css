@@ -31,7 +31,11 @@ body {
     }
 
 footer {
-    margin-top: 2rem;
+    position: absolute;
+    bottom: 0;
+    max-width: 100%;
+    background: #0007;
+    padding: .5em;
 }
 
 /* General Styling*/
