@@ -2,25 +2,29 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>16 Types Voresonality test</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit" />
-  <link rel="stylesheet" href="styles/snappsStyle.css" />
-  
-<!-- Discord Preview -->
-<meta property="og:site_name" content="Vore Personality Test">
-<meta property="og:url" content="https://tastytales.github.io/">
-<meta property="og:title" content="Vore Personality Test">
-<meta property="og:description" content="Find out your Predator or Prey Personality Indicator!">
-<meta property="og:type" content="website">
-<meta property="og:image" itemprop="image" content="https://cdn.discordapp.com/attachments/759881339800911874/981737005115400232/unknown.png">
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Vore Personality Test" />
-<meta name="twitter:description" content="Find out your Predator or Prey Personality Indicator" />
-<meta name="twitter:image" content="https://cdn.discordapp.com/attachments/759881339800911874/981737005115400232/unknown.png" />
-  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>16 Types Voresonality test</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit" />
+    <!--
+        Used my own style as to not cramp anyone else's' :) - Snapps
+        Everything still "works" with the other style but it does look jank.
+     -->
+    <link rel="stylesheet" href="styles/snappsStyle.css" />
+
+    <!-- Discord Preview -->
+    <meta property="og:site_name" content="Vore Personality Test">
+    <meta property="og:url" content="https://tastytales.github.io/">
+    <meta property="og:title" content="Vore Personality Test">
+    <meta property="og:description" content="Find out your Predator or Prey Personality Indicator!">
+    <meta property="og:type" content="website">
+    <meta property="og:image" itemprop="image" content="https://cdn.discordapp.com/attachments/759881339800911874/981737005115400232/unknown.png">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Vore Personality Test" />
+    <meta name="twitter:description" content="Find out your Predator or Prey Personality Indicator" />
+    <meta name="twitter:image" content="https://cdn.discordapp.com/attachments/759881339800911874/981737005115400232/unknown.png" />
+
 </head>
 
 <body>
@@ -28,7 +32,10 @@
         <h1 id='title'>Voresonality Test</h1>
         <h3 id='subtitle'>Find out your Vore Indicator!</h3>
         <p>Created by TastyTales and Smuxray, with contributions from Eka's Portal users. This test is based off of the Myers-Briggs Personality Indicator, and is designed to show you what kind of predator or prey you are using one of 16 indicators. It is best to answer these questions 'In Character' for the character you want to get a result for. However, you can also answer as yourself!</p>
-        <p>Please note that this test is meant to be taken for fun, and is still in its development stage. Feedback is appreciated, send your comments to @_TastyTales \n \n CSS by @mikhailchip \n \n Thanks to @Grey_krow for his JavaScript help!</p>
+        <p>Please note that this test is meant to be taken for fun, and is still in its development stage. Feedback is appreciated, send your comments to @_TastyTales</p>
+        <p>CSS by @mikhailchip</p>
+        <p>Thanks to @Grey_krow for his JavaScript help!</p>
+        
         <p>Select which test to take</p>
         <div class="pick-button-container">
             <button class="pick-pred" id='pred-button'>Predator</button>
@@ -42,47 +49,63 @@
 
             </div>
         </div>
+        <div id="question-containter">
+            <h1 id="question-header"></h1>
+            <div id="test-options">
+                <button disabled="" class="navbuttons" id='back-button'>⬅</button>
+                <button class="navbuttons" id="reset-button">⟳</button>
+            </div>
+        </div>
+        <p id="question-text"></p>
         <div class="testbuttons-container">
             <button class="testbuttons" id='strdis-button'>Strongly Disagree</button>
             <button class="testbuttons" id="dis-button">Disagree</button>
             <button class="testbuttons" id="na-button">Neither</button>
             <button class="testbuttons" id="agr-button">Agree</button>
             <button class="testbuttons" id="stragr-button">Strongly Agree</button>
-            <div class="navbuttons-container">
-                <button class="navbuttons" id='back-button'>Go Back</button>
-                <button class="navbuttons" id="reset-button">Reset</button>
-            </div>
         </div>
     </div>
     <div id='results-menu' style='display:none;'>
-        <table id="scores-table">
-            <caption>Scores</caption>
-            <tr>
-                <td>Individual</td>
-                <td id="score-individual">0</td>
-                <td id="score-shared">0</td>
-                <td>Shared</td>
-            </tr>
-            <tr>
-                <td>Visceral</td>
-                <td id="score-visceral">0</td>
-                <td id="score-emotional">0</td>
-                <td>Emotional</td>
-            </tr>
-            <tr>
-                <td>Active</td>
-                <td id="score-active">0</td>
-                <td id="score-passive">0</td>
-                <td>Passive</td>
-            </tr>
-            <tr>
-                <td>SeXual</td>
-                <td id="score-sexual">0</td>
-                <td id="score-sensual">0</td>
-                <td>SeNsual</td>
-            </tr>
-        </table>
-        <button class="reset-button" id="reset-button">Reset</button>
+        <div id="results-desc">
+            <p id="results-desc-header-type"></p>
+            <p id="results-desc-header-title"></p>
+            <p id="results-desc-header-type-desc"></p>
+            <p id="results-desc-header-quote"></p>
+            <p id="results-desc-text"></p>
+            <p id="results-desc-score-text"></p>
+            <a id="results-share">Link To Your Results!</a>
+        </div>
+        
+        <div id="results-scores">
+            <table id="scores-table">
+                <caption>Scores</caption>
+                <tr>
+                    <td>Individual</td>
+                    <td id="score-individual">0</td>
+                    <td id="score-shared">0</td>
+                    <td>Shared</td>
+                </tr>
+                <tr>
+                    <td>Visceral</td>
+                    <td id="score-visceral">0</td>
+                    <td id="score-emotional">0</td>
+                    <td>Emotional</td>
+                </tr>
+                <tr>
+                    <td>Active</td>
+                    <td id="score-active">0</td>
+                    <td id="score-passive">0</td>
+                    <td>Passive</td>
+                </tr>
+                <tr>
+                    <td>SeXual</td>
+                    <td id="score-sexual">0</td>
+                    <td id="score-sensual">0</td>
+                    <td>SeNsual</td>
+                </tr>
+            </table>
+        </div>
+        <button class="reset-button" id="reset-button-2">Reset</button>
     </div>
 
 

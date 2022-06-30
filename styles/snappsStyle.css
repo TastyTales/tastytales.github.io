@@ -10,6 +10,7 @@
 /* Page Setup*/
 
 body {
+    font-family: sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,8 +25,9 @@ body {
     color: #fff;
 }
 
-    body div {
+    body > div {
         max-width: max(60vw,500px);
+        width: max(60vw,500px);
     }
 
 footer {
@@ -49,6 +51,7 @@ p {
     font-size: 20px;
 }
 
+
 /* Test Themes */
 .predbody {
     background: linear-gradient(0deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), linear-gradient(90deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), linear-gradient(180deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), linear-gradient(270deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), #222;
@@ -69,13 +72,13 @@ p {
 }
 
 /* Progress Bar */
-.progress-bar {
-    width: 20rem;
+#progress-bar {
+    width: 100%;
     height: 1rem;
-    border: 0.15rem solid black;
+    background: #111;
 }
 
-.progress-bar-full {
+#progress-bar-full {
     height: 1.00rem;
     background: var(--currentTheme);
     background: linear-gradient(270deg, rgb(255,255,255) 5px, var(--currentTheme) 20px);
@@ -84,6 +87,56 @@ p {
     transition: .2s;
 }
 
+/* Test Text */
+#question-header {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: .5em;
+    margin: 0;
+    background: #555;
+}
+
+#question-text {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1em;
+    margin: 0;
+    font-style: italic;
+    text-align: center;
+    background: #444;
+}
+
+/* Test Options */
+#question-containter {
+    display: flex;
+    background: #555;
+}
+
+#test-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1em;
+}
+
+.navbuttons {
+    font-size: xxx-large;
+    background: #0000;
+    color: #eee;
+    border: none;
+}
+
+    .navbuttons:hover {
+        color: var(--currentTheme);
+        filter: drop-shadow(0px 0px 5px var(--currentTheme));
+    }
+
+#back-button:hover:disabled {
+    color: #888;
+    filter: none;
+}
 /* Test Type Buttons */
 .pick-button-container {
     display: flex;
@@ -142,23 +195,25 @@ p {
 .testbuttons-container {
     display: flex;
     width: 100%;
-    max-width: 550px;
+    max-width: inherit;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
 
 .testbuttons {
-    width: -moz-fit-content;
-    width: fit-content;
-    height: auto;
+    flex-grow: 1;
+    height: 3em;
     font-family: "Kanit", sans-serif;
-    font-size: 16px;
-    background-color: rgb(218, 218, 218);
-    border-color: silver;
-    border-radius: 15px;
-    box-shadow: 3px 3px 12px black;
+    font-size: larger;
+    font-weight: bold;
+    border: none;
+    border-right: 1px solid #000;
 }
+
+    .testbuttons:last-of-type {
+        border: none;
+    }
 
 #textarea_header {
     font-style: italic;
@@ -167,11 +222,12 @@ p {
 /* Results */
 
 table {
-    width: -moz-fit-content;
-    width: fit-content;
+    width: 90%;
     margin: 2rem;
     font-size: 20px;
     font-family: "Kanit", sans-serif;
+    height: min(40vw,40vh);
+    border-collapse: collapse;
 }
 
 caption {
@@ -179,24 +235,23 @@ caption {
 }
 
 td {
-    border: 3px solid silver;
-    border-style: ridge;
+
 }
 
 table tr:first-of-type {
-    background-color: #FFFBAE;
+    background-color: #772;
 }
 
 table tr:nth-of-type(2) {
-    background-color: #F5898E;
+    background-color: #722;
 }
 
 table tr:nth-of-type(3) {
-    background-color: #99D9EA;
+    background-color: #257;
 }
 
 table tr:last-of-type {
-    background-color: #FFAEC9;
+    background-color: #7449;
 }
 
 tr {
@@ -216,12 +271,57 @@ tr {
     tr td:nth-of-type(2) {
         width: 10%;
         padding: 0 .5rem;
+        border-right: solid .1em;
     }
 
     tr td:nth-of-type(3) {
         width: 10%;
         padding: 0 .5rem;
+        border-left: solid .1em;
     }
+
+#results-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+
+    #results-menu > * {
+        min-width: max(30vw,500px);
+        width: 50%;
+    }
+
+#results-scores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#results-desc {
+  max-height: 50vh;
+}
+#results-desc-score-text {
+  overflow-y: scroll;
+  max-height: 14em;
+}
+
+#score-sexual, #score-sensual {
+    background: #e67198;
+}
+
+#score-active, #score-passive {
+    background: #1aa0c4;
+}
+
+#score-visceral, #score-emotional {
+    background: #bb2929;
+}
+
+#score-individual, #score-shared {
+    background: #c6be4a;
+}
+
 
 .reset-button {
     width: 150px;
@@ -233,4 +333,3 @@ tr {
     border-radius: 15px;
     box-shadow: 3px 3px 12px black;
 }
-
