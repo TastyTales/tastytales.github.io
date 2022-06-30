@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>16 Types Voresonality test</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit" />
-  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="styles/snappsStyle.css" />
   
 <!-- Discord Preview -->
 <meta property="og:site_name" content="Vore Personality Test">
@@ -24,73 +24,72 @@
 </head>
 
 <body>
-  <h1 id='title'>Voresonality Test</h1>
-  <h3 id='title2'>Find out your Vore Indicator!</h3>
-  <div id="progress-bar">
-    <div id="progress-bar-full">
-
+    <div id='main-menu'>
+        <h1 id='title'>Voresonality Test</h1>
+        <h3 id='subtitle'>Find out your Vore Indicator!</h3>
+        <div class="pick-button-container">
+            <button class="pick-pred" id='pred-button'>Predator</button>
+            <button class="pick-wprey" id='wprey-button'>Willing Prey</button>
+            <button class="pick-uprey" id='uprey-button'>Unwilling Prey</button>
+        </div>
     </div>
-  </div>
-  <p id='textarea'></p>
+    <div id='test-menu'>
+        <div id="progress-bar">
+            <div id="progress-bar-full">
 
-  <div class="pick-button-container">
-    <button class="pick-pred" id='pred-button'>Predator</button>
-    <button class="pick-wprey" id='wprey-button'>Willing Prey</button>
-    <button class="pick-uprey" id='uprey-button'>Unwilling Prey</button>
-  </div>
-
-  <div class="testbuttons-container">
-    <button class="testbuttons" id='strdis-button'>Strongly Disagree</button>
-    <button class="testbuttons" id="dis-button">Disagree</button>
-    <button class="testbuttons" id="na-button">Neither</button>
-    <button class="testbuttons" id="agr-button">Agree</button>
-    <button class="testbuttons" id="stragr-button">Strongly Agree</button>
-  </div>
-  <p id='textarea_header'></p>
-  <br />
-  <p id='textarea2'></p>
-  <br />
-  <p id='textarea3'></p>
-  <p id="textarea4"></p>
-  <table id="scores-table">
-    <caption>Scores</caption>
-    <tr>
-      <td>Individual</td>
-      <td id="score-individual">0</td>
-      <td id="score-shared">0</td>
-      <td>Shared</td>
-    </tr>
-    <tr>
-      <td>Visceral</td>
-      <td id="score-visceral">0</td>
-      <td id="score-emotional">0</td>
-      <td>Emotional</td>
-    </tr>
-    <tr>
-      <td>Active</td>
-      <td id="score-active">0</td>
-      <td id="score-passive">0</td>
-      <td>Passive</td>
-    </tr>
-    <tr>
-      <td>SeXual</td>
-      <td id="score-sexual">0</td>
-      <td id="score-sensual">0</td>
-      <td>SeNsual</td>
-    </tr>
-  </table>
-  <a id="share-link">Link to this result</a>
-  <br />
-  <br />
-  <button class="reset-button" id="reset-button">Reset</button>
-
-  <footer>
-    <div>
-      <i>Voresonality Test 1.0 - Original idea by Smuxray@FA and @_TastyTales. Development by @_TastyTales, @Grey_krow and @Mikhailchip. Original contributions by Rumor and RonanTraumer.</i>
+            </div>
+        </div>
+        <div class="testbuttons-container">
+            <button class="testbuttons" id='strdis-button'>Strongly Disagree</button>
+            <button class="testbuttons" id="dis-button">Disagree</button>
+            <button class="testbuttons" id="na-button">Neither</button>
+            <button class="testbuttons" id="agr-button">Agree</button>
+            <button class="testbuttons" id="stragr-button">Strongly Agree</button>
+            <div class="navbuttons-container">
+                <button class="navbuttons" id='back-button'>Go Back</button>
+                <button class="navbuttons" id="reset-button">Reset</button>
+            </div>
+        </div>
     </div>
-  </footer>
+    <div id='results-menu'>
+        <table id="scores-table">
+            <caption>Scores</caption>
+            <tr>
+                <td>Individual</td>
+                <td id="score-individual">0</td>
+                <td id="score-shared">0</td>
+                <td>Shared</td>
+            </tr>
+            <tr>
+                <td>Visceral</td>
+                <td id="score-visceral">0</td>
+                <td id="score-emotional">0</td>
+                <td>Emotional</td>
+            </tr>
+            <tr>
+                <td>Active</td>
+                <td id="score-active">0</td>
+                <td id="score-passive">0</td>
+                <td>Passive</td>
+            </tr>
+            <tr>
+                <td>SeXual</td>
+                <td id="score-sexual">0</td>
+                <td id="score-sensual">0</td>
+                <td>SeNsual</td>
+            </tr>
+        </table>
+        <button class="reset-button" id="reset-button">Reset</button>
+    </div>
 
-  <script src="script.js"></script>
+
+    <footer>
+        <div>
+            <i>Voresonality Test 1.0 - Original idea by Smuxray@FA and @_TastyTales. Development by @_TastyTales and @Mikhailchip. Original contributions by [names].</i>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>

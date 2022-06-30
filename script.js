@@ -1,3 +1,7 @@
+// Keeps track of test progression
+// 0 = menu, 1 = in test, 2 = end of test
+var testState = 0
+
 // UI Elements
 
 var predTest = document.getElementById('pred-button'),
@@ -62,6 +66,12 @@ var testType = '',
   inc = 0;
 
 var typeDesc = '';
+
+// Changes the pages border to a given color
+function changeTheme(color) {
+    document.querySelector(':root').style.setProperty('--currentTheme', color)
+}
+
 
 // Functions used to hide buttons when not in use, and show them when they are.
 
