@@ -23,11 +23,12 @@ body {
     background-size: contain;
     background-attachment: fixed;
     color: #fff;
+    font-size: max(1vh,1vw);
 }
 
     body > div {
-        max-width: max(60vw,500px);
-        width: max(60vw,500px);
+        max-width: max(60vw,35vh);
+        width: max(60vw,35vh);
     }
 
 footer {
@@ -52,7 +53,7 @@ h3 {
 }
 
 p {
-    font-size: 20px;
+
 }
 
 
