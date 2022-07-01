@@ -289,6 +289,7 @@ tr {
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
+    
 }
 
     #results-menu > * {
@@ -303,10 +304,11 @@ tr {
 }
 
 #results-desc {
+    overflow-y: scroll;
   max-height: 50vh;
 }
 #results-desc-score-text {
-  overflow-y: scroll;
+  
   max-height: 14em;
 }
 
