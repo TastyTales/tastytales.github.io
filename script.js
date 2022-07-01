@@ -897,17 +897,17 @@ function processHash() {
         if (m !== null) {
             switch ((m[2] ?? '').toUpperCase()) {
                 case 'W':
-                    title.innerText = title.innerText + ' - Willing Prey';
+                    //title.innerText = title.innerText + ' - Willing Prey';
                     testType = wpreyStatements;
                     document.body.className = 'wpreybody';
                     break;
                 case 'U':
-                    title.innerText = title.innerText + ' - Unwilling Prey';
+                    //title.innerText = title.innerText + ' - Unwilling Prey';
                     testType = upreyStatements;
                     document.body.className = 'upreybody';
                     break;
                 default:
-                    title.innerText = title.innerText + ' - Predator';
+                    //title.innerText = title.innerText + ' - Predator';
                     testType = predStatements;
                     document.body.className = 'predbody';
                     break;
