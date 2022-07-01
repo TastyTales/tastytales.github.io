@@ -9,6 +9,7 @@ Some things I've changed (in order of visibility):
 	- Ability to reset mid-quiz
 - CSS
 	- Redone aesthetic (to suit my tastes)
+		- Still some text size issues!
 	- Gave the page a changeable "theme color"
 	- Rules should be able to accommodate the addition/removal of buttons
 	- Slightly commented
