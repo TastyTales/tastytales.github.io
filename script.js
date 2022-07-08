@@ -899,16 +899,19 @@ function processHash() {
                     //title.innerText = title.innerText + ' - Willing Prey';
                     testType = wpreyStatements;
                     document.body.className = 'wpreybody';
+                    changeTheme("var(--wPrey)");
                     break;
                 case 'U':
                     //title.innerText = title.innerText + ' - Unwilling Prey';
                     testType = upreyStatements;
                     document.body.className = 'upreybody';
+                    changeTheme("var(--uPrey)");
                     break;
                 default:
                     //title.innerText = title.innerText + ' - Predator';
                     testType = predStatements;
                     document.body.className = 'predbody';
+                    changeTheme("var(--pred)");
                     break;
             }
             if (m[3]) {
