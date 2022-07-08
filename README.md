@@ -7,9 +7,10 @@ Some things I've changed (in order of visibility):
 	- Commented and organized
 	- Moved some text from JS to HTML
 	- Ability to reset mid-quiz
+	- Share link button now copies link to clipboard
 - CSS
-	- Redone aesthetic (to suit my tastes)
-		- Still some text size issues!
+	- Added variables to make color editing easier
+	- Redone aesthetic
 	- Gave the page a changeable "theme color"
 	- Rules should be able to accommodate the addition/removal of buttons
 	- Slightly commented
