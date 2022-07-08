@@ -418,7 +418,6 @@ function finalResult() {
     window.location.hash = `#${type}/${I}-${S}-${V}-${E}-${A}-${P}-${X}-${N}`;
     shareLink.setAttribute('href', window.location.toString());
 
-    changeTheme('var(--menu)')
     hideMenu('test-menu');
     showMenu('results-menu');
 
