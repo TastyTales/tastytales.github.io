@@ -1,9 +1,24 @@
 /* Styles go here */
+/* Rules (usually) appear in order they would be visually seen*/
+
+/* Variables */
+
 :root {
+    /* Theme Colors */
     --menu: rgb(221,216,202);
     --pred: rgb(224, 172, 95);
     --wPrey: rgb(137, 226, 144);
     --uPrey: rgb(199, 130, 226);
+    /* Score Colors */
+    --indShaMain: #c6be4a;
+    --indShaAlt: #772;
+    --visEmoMain: #bb2929;
+    --visEmoAlt: #722;
+    --actPasMain: #1aa0c4;
+    --actPasAlt: #257;
+    --sexSenMain: #e67198;
+    --sexSenAlt: #744;
+    /* This one is vital for the aetheic programming */
     --currentTheme: rgb(221,216,202);
 }
 
@@ -284,37 +299,37 @@ tr {
 /* Score Table Colors*/
 /* Inner */
 #score-sexual, #score-sensual {
-    background: #e67198;
+    background: var(--sexSenMain);
 }
 
 #score-active, #score-passive {
-    background: #1aa0c4;
+    background: var(--actPasMain);
 }
 
 #score-visceral, #score-emotional {
-    background: #bb2929;
+    background: var(--visEmoMain);
 }
 
 #score-individual, #score-shared {
-    background: #c6be4a;
+    background: var(--indShaMain);
 }
 
 /* Outer */
 
 table tr:first-of-type {
-    background-color: #772;
+    background: var(--indShaAlt);
 }
 
 table tr:nth-of-type(2) {
-    background-color: #722;
+    background: var(--visEmoAlt);
 }
 
 table tr:nth-of-type(3) {
-    background-color: #257;
+    background: var(--actPasAlt);
 }
 
 table tr:last-of-type {
-    background-color: #7449;
+    background: var(--sexSenAlt);
 }
 
 /* Results Menu Components */
@@ -338,17 +353,27 @@ table tr:last-of-type {
         padding: .5em 1em;
         margin: 0;
         text-align: center;
-        idth: 100%;
     }
 
 #results-desc-header-type {
     font-weight: bold;
     font-size: 2em;
+    background: var(--currentTheme);
+    text-shadow: 0 0 .1em #000;
+}
+
+#results-desc-header-title {
+    text-decoration: underline;
 }
 
 #results-desc-header-quote {
     font-style: italic;
 }
+
+#results-desc-header-title, #results-desc-text, #results-desc-header-type-desc, #results-desc-header-quote {
+    background: #666;
+}
+
 
 #results-share {
     display: flex;
