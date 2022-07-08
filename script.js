@@ -139,6 +139,9 @@ resetbtn2.addEventListener('click', function () {
 
 });
 
+//Share Button
+shareLink.addEventListener('click', function () { sentToClipboard() });
+
 //======================
 //Data Loading Functions
 //Functions that deal with external data
@@ -155,6 +158,14 @@ function readTextFile(file, callback) {
         }
     }
     rawFile.send(null);
+}
+
+//Desc: (Currently) copies page url to user's clipboard (with warning).
+function sentToClipboard() {
+    // Text to copy
+    var text = window.location.toString();
+    // Sending it to the clipboard
+    if (confirm("This will copy the link to your results to your clipboard. Continue?")) navigator.clipboard.writeText(text);
 }
 
 //===================
@@ -176,7 +187,8 @@ function resetScores() {
 //Functions that deal with other test features (mainly graphics, sometimes data)
 //==============================================================================
 
-//Starts Test
+//Desc: Begins the actual test
+//Args: (str) questionData - relative location of the queestion data JSON to load
 function startTest(questionData) {
 
     //Set vars
@@ -416,7 +428,7 @@ function finalResult() {
     // textarea.innerText = typeDesc;
     descriptions();
     window.location.hash = `#${type}/${I}-${S}-${V}-${E}-${A}-${P}-${X}-${N}`;
-    shareLink.setAttribute('href', window.location.toString());
+    //shareLink.setAttribute('href', window.location.toString());
 
     hideMenu('test-menu');
     showMenu('results-menu');
