@@ -1,0 +1,421 @@
+/* Styles go here */
+/* Rules (usually) appear in order they would be visually seen*/
+
+/* Variables */
+
+:root {
+    /* Theme Colors */
+    --menu: rgb(221,216,202);
+    --pred: rgb(224, 172, 95);
+    --wPrey: rgb(137, 226, 144);
+    --uPrey: rgb(199, 130, 226);
+    /* Score Colors */
+    --indShaMain: #c6be4a;
+    --indShaAlt: #772;
+    --visEmoMain: #bb2929;
+    --visEmoAlt: #722;
+    --actPasMain: #1aa0c4;
+    --actPasAlt: #257;
+    --sexSenMain: #e67198;
+    --sexSenAlt: #744;
+    /* This one is vital for the aetheic programming */
+    --currentTheme: rgb(221,216,202);
+}
+
+/* Page Setup*/
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(0deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), linear-gradient(90deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), linear-gradient(180deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), linear-gradient(270deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), #222;
+    background-size: contain;
+    background-attachment: fixed;
+    color: #fff;
+    font-size: max(1vh,1vw);
+}
+
+    body > div {
+        max-width: max(60vw,35vh);
+        width: max(60vw,35vh);
+    }
+
+footer {
+    position: absolute;
+    bottom: 0;
+    max-width: 100%;
+    background: #0007;
+    padding: .5em;
+    font-size: .75em;
+}
+
+/* General Styling*/
+
+h1 {
+    font-family: "Kanit", sans-serif;
+    margin: 1.5rem 0 0 0;
+}
+
+h3 {
+    font-family: "Kanit", sans-serif;
+    font-size: 25px;
+    margin: 15 0;
+}
+
+p {
+    font-family: "Kanit", sans-serif;
+}
+
+
+/* Test Themes */
+.predbody {
+    background: linear-gradient(0deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), linear-gradient(90deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), linear-gradient(180deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), linear-gradient(270deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), #222;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+.wpreybody {
+    background: linear-gradient(0deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), linear-gradient(90deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), linear-gradient(180deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), linear-gradient(270deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), #222;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+.upreybody {
+    background: linear-gradient(0deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), linear-gradient(90deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), linear-gradient(180deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), linear-gradient(270deg, var(--currentTheme) 0, #0000 min(5vw,5vh)), #222;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+/* Progress Bar */
+#progress-bar {
+    width: 100%;
+    height: 1rem;
+    background: #111;
+}
+
+#progress-bar-full {
+    height: 1.00rem;
+    background: var(--currentTheme);
+    background: linear-gradient(270deg, rgb(255,255,255) 5px, var(--currentTheme) 20px);
+    filter: drop-shadow(0px 0px 5px var(--currentTheme));
+    width: 0%;
+    transition: .2s;
+}
+
+/* Test Text */
+#question-header {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: .5em;
+    margin: 0;
+    background: #555;
+}
+
+#question-text {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1em;
+    margin: 0;
+    font-style: italic;
+    text-align: center;
+    background: #444;
+}
+
+/* Test Options */
+#question-containter {
+    display: flex;
+    background: #555;
+}
+
+#test-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1em;
+}
+
+.navbuttons {
+    font-size: xxx-large;
+    background: #0000;
+    color: #eee;
+    border: none;
+}
+
+    .navbuttons:hover {
+        color: var(--currentTheme);
+        filter: drop-shadow(0px 0px 5px var(--currentTheme));
+    }
+
+#back-button:hover:disabled {
+    color: #888;
+    filter: none;
+}
+/* Test Type Buttons */
+.pick-button-container {
+    display: flex;
+    width: 100%;
+    max-width: inherit;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    filter: drop-shadow(3px 3px 12px #000);
+}
+
+    .pick-button-container button {
+        flex-grow: 1;
+        height: 3em;
+        font-family: "Kanit", sans-serif;
+        font-size: larger;
+        font-weight: bold;
+        border: none;
+    }
+
+        .pick-button-container button:first-of-type {
+            border-radius: 1em 0 0 1em;
+        }
+
+        .pick-button-container button:last-of-type {
+            border-radius: 0 1em 1em 0;
+        }
+
+.pick-pred {
+    background-color: var(--pred);
+}
+
+    .pick-pred:hover {
+        background-color: var(--pred);
+        filter: drop-shadow(3px 3px 12px var(--pred));
+    }
+
+.pick-wprey {
+    background-color: var(--wPrey);
+}
+
+    .pick-wprey:hover {
+        filter: drop-shadow(3px 3px 12px var(--wPrey));
+    }
+
+.pick-uprey {
+    background-color: var(--uPrey);
+}
+
+    .pick-uprey:hover {
+        filter: drop-shadow(3px 3px 12px var(--uPrey));
+    }
+
+/* Test Buttons */
+
+.testbuttons-container {
+    display: flex;
+    width: 100%;
+    max-width: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.testbuttons {
+    flex-grow: 1;
+    height: 3em;
+    font-family: "Kanit", sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    border: none;
+    border-right: 1px solid #000;
+}
+
+    .testbuttons:last-of-type {
+        border: none;
+    }
+
+#textarea_header {
+    font-style: italic;
+}
+
+/* Results */
+
+#results-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+    #results-menu > * {
+        min-width: 100%;
+    }
+
+
+/* Score Table  Style*/
+
+table {
+    font-size: max(1vh,1vw);
+    font-family: "Kanit", sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+caption {
+}
+
+td {
+}
+
+
+tr {
+    text-align: center;
+}
+
+    tr td:first-of-type {
+        width: 40%;
+        padding: 0 2rem;
+    }
+
+    tr td:last-of-type {
+        width: 40%;
+        padding: 0 2rem;
+    }
+
+    tr td:nth-of-type(2) {
+        width: 10%;
+        padding: 0 .5rem;
+        border-right: solid .1em;
+    }
+
+    tr td:nth-of-type(3) {
+        width: 10%;
+        padding: 0 .5rem;
+        border-left: solid .1em;
+    }
+
+/* Score Table Colors*/
+/* Inner */
+#score-sexual, #score-sensual {
+    background: var(--sexSenMain);
+}
+
+#score-active, #score-passive {
+    background: var(--actPasMain);
+}
+
+#score-visceral, #score-emotional {
+    background: var(--visEmoMain);
+}
+
+#score-individual, #score-shared {
+    background: var(--indShaMain);
+}
+
+/* Outer */
+
+table tr:first-of-type {
+    background: var(--indShaAlt);
+}
+
+table tr:nth-of-type(2) {
+    background: var(--visEmoAlt);
+}
+
+table tr:nth-of-type(3) {
+    background: var(--actPasAlt);
+}
+
+table tr:last-of-type {
+    background: var(--sexSenAlt);
+}
+
+/* Results Menu Components */
+
+#results-scores {
+    width: 100%;
+    background: #444;
+    border-top: solid .1em #fff;
+    padding-top: .5em;
+}
+
+#results-desc {
+    background: #444;
+    overflow-y: scroll;
+    width: 50%;
+    height: 45vh;
+    padding-bottom: 1em;
+}
+
+    #results-desc > * {
+        padding: .5em 1em;
+        margin: 0;
+        text-align: center;
+    }
+
+#results-desc-header-type {
+    font-weight: bold;
+    font-size: 2em;
+    background: var(--currentTheme);
+    text-shadow: 0 0 .1em #000;
+}
+
+#results-desc-header-title {
+    text-decoration: underline;
+}
+
+#results-desc-header-quote {
+    font-style: italic;
+}
+
+#results-desc-header-title, #results-desc-text, #results-desc-header-type-desc, #results-desc-header-quote {
+    background: #666;
+}
+
+
+#results-share {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    align-content: center;
+    justify-content: center;
+    background: var(--currentTheme);
+}
+
+/* Results Menu Buttons */
+
+#results-buttons {
+    display: flex;
+    margin-top: 5vh;
+}
+
+    #results-buttons > * {
+        flex: 1;
+        filter: none;
+        box-shadow: none;
+        border: none;
+        font-size: 1em;
+        background: #111;
+        color: #eee;
+        border-right: solid .1em #fff;
+        transition: .2s;
+    }
+
+        #results-buttons > *:hover {
+            flex: 1.25;
+            font-size: 1em;
+            background: var(--currentTheme);
+            text-shadow: 0 0 .1em #000;
+            color: #eee;
+        }
+
+        #results-buttons > *:first-child {
+            border-radius: 1em 0 0 1em;
+        }
+
+        #results-buttons > *:last-child {
+            border-radius: 0 1em 1em 0;
+            border-right: none;
+        }
