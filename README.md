@@ -5,6 +5,8 @@ I'm happy to look at any Pull Requests, hoping to keep working on the project my
 TO DO LIST:
 - Adding an Unwilling Predator Test
 
+- Create an Observer test : Need some more time for research, but this could be feasible?
+
 - Creating 'Master Tests' that combine both for Predators and Prey and add a new Unwilling/Willing stat.
 
 - Dare I say it, making a disgustingly long 160 question "Switch Test"? 
@@ -12,8 +14,6 @@ TO DO LIST:
 - Refining the Personalities to match a specific format (Right now it's a mix of "You are" and "SEPN is", this should be universal across all results.
 
 - Adding details on how percentages affect outcomes.
-
-- Moving the percentage box up to the top of the page for easier screencapping (Probably replacing the progress bar with it on the Results page)
 
 - Adding a way to navigate between different types.
 
